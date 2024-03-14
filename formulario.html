@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Post</title>
+</head>
+<body>
+
+<form action="api-conexion.php" method="post">
+    <label for="title">Título:</label><br>
+    <input type="text" id="title" name="title" required><br>
+    
+    <label for="body">Cuerpo:</label><br>
+    <textarea id="body" name="body" required></textarea><br>
+    
+    <label for="userId">ID del Usuario:</label><br>
+    <input type="number" id="userId" name="userId" required><br>
+    
+    <input type="submit" value="Crear Post">
+</form>
+
+</body>
+</html>
