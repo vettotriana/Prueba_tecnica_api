@@ -31,7 +31,7 @@ Este proyecto permite a los usuarios interactuar con la API RESTful de JSONPlace
 ## Cómo Funciona
 
 - `api-conexion.php`: Este es el script principal que contiene las funciones para realizar solicitudes GET y POST utilizando cURL a la API de JSONPlaceholder.
-- `form.html`: Un formulario simple que permite al usuario enviar un título, cuerpo de mensaje y ID de usuario para crear una nueva publicación a través de la API.
+- `formulario.html`: Un formulario simple que permite al usuario enviar un título, cuerpo de mensaje y ID de usuario para crear una nueva publicación a través de la API.
 
 Cuando se envía el formulario, el script `api-conexion.php` procesa la solicitud POST, ejecuta la función `createPost` y muestra el resultado.
 
